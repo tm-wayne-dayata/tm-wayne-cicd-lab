@@ -25,7 +25,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install argparse pytest
       - name: "Run Python" # run file
-        run: python main.py --num_a ${{ vars.NUM_A }} --num_b 2 ${{ vars.NUM_B }}
+        run: python main.py --num_a ${{ vars.NUM_A }} --num_b ${{ vars.NUM_B }}
       - name: "Test Python"
         run: pytest tests
   print_secrets: # job_name_var_3
