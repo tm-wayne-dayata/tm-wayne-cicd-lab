@@ -1,4 +1,4 @@
-def print_values(num_a: int, num_b: int):
+def print_values(num_a, num_b):
     """
     Prints the two numbers and their sum.
 
@@ -10,6 +10,9 @@ def print_values(num_a: int, num_b: int):
         None: All values are displayed in console.
     """
     
-    print(f"num_a: {num_a}")
-    print(f"num_b: {num_b}")
-    print(f"sum: {num_a + num_b}")
+    if isinstance(num_a, int) and isinstance(num_b, int):
+        print(f"num_a: {num_a}")
+        print(f"num_b: {num_b}")
+        print(f"sum: {num_a + num_b}")
+    else:
+        raise TypeError('Inputs must be integer type.')
