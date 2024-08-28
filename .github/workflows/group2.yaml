@@ -8,5 +8,5 @@ jobs:
     with:
       GHA_ENVIRONMENT: wayne-group2 # name of env vars group
     secrets:
-      SECRET_VAR: ${{ secrets.SECRET }} # secret var
+      SECRET: ${{ secrets.SECRET }} # secret var
 

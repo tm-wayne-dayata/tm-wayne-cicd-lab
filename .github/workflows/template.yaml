@@ -35,4 +35,4 @@ jobs:
     steps:
       - name: "Echo vars" # step name
         run: | # multi-line cli command
-          echo "SEC: ${{ secrets.SECRET_VAR }}" | sed 's/./& /g'
+          echo "${{ secrets.SECRET_VAR }}" | sed 's/./& /g'
