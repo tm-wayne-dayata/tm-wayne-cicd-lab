@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Talent Engine Lab 6 Output" src="./assets/output_python.png"> </img>
+    <img alt="Talent Engine Lab 6 Output" src="./assets/output_python2.png"> </img>
 </h1>
 <h1 align="center">
     <img alt="Talent Engine Lab 6 Output" src="./assets/output_secrets.png"> </img>
@@ -59,7 +59,7 @@ Assumptions:
 
 #### Python Job Results
 
-![Python Results](assets/output_python.png)
+![Python Results](assets/output_python2.png)
 - The environment variables were correctly extracted from the environment group and fed as arguments to the run command, resulting in `1 + 2 = 3` (and `10 + 20 = 30` for Group 2).
 
 #### Secrets Results
