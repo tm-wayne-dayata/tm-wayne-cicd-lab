@@ -1,12 +1,13 @@
-name: "Group 1 Workflow" # workflow name
+name: "Group 1 Workflow"
 on:
-  workflow_dispatch: # trigger condition
+  workflow_dispatch:
 jobs:
-  run_python: # job_name_var_2
-    name: "Run Group 1" # job name
-    uses: ./.github/workflows/template.yaml # path
+  
+  run_python:
+    name: "Run Group 1"
+    uses: ./.github/workflows/template.yaml
     with:
-      GHA_ENVIRONMENT: wayne-group1 # name of env vars group
+      GHA_ENVIRONMENT: wayne-group1
     secrets:
-      SECRET: ${{ secrets.SECRET }} # secret var
+      SECRET: ${{ secrets.SECRET }}
 
